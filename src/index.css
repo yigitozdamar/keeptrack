@@ -3,7 +3,9 @@
 form {
   min-width: 300px;
 }
-
+.container {
+  height: 100%;
+}
 html,
 body,
 #root,
@@ -16,4 +18,27 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header {
+  height: 5.1875rem;
+}
+
+a.button.active {
+  border: 1px solid var(--fore-color);
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms ease-in;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
 }
