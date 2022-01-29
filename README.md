@@ -1,3 +1,10 @@
+TODOS: ,
+
+1. npm install
+2. npm run api //to run the backend api
+3. npm run build
+4. npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
